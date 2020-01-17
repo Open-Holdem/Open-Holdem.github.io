@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+### Abstract
 
-You can use the [editor on GitHub](https://github.com/Open-Holdem/Open-Holdem.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Owning to the unremitting efforts by a few institutes, great progress has recently been made in designing superhuman AIs in No-limit Texas Hold’em (NLTH), the primary testbed for largescale imperfect-information game research. However, it remains very challenging for new researchers to study this problem since there lacks standard benchmarks for comparing with existing methods, which greatly hinders further developments in this research area. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this work, we present CasiaHoldem, a benchmark for large-scale imperfectinformation game research using NLTH. CasiaHoldem makes three main contributions to this research direction:
 
-### Markdown
+* a standardized evaluation protocol for thoroughly evaluating different NLTH AIs; 
+* three publicly available strong baselines for NLTH AI
+* an online testing platform with easy-to-use APIs for public NLTH AI evaluation. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Open-Holdem/Open-Holdem.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We hope CasiaHoldem will facilitate further studies on the unsolved theoretical and computational issues in this area, and cultivate important research problems like opponent modeling and sub-optimal opponent exploiting. 
